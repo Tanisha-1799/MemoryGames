@@ -1,27 +1,53 @@
 
 
 var library = {
-    pokemon: [
-      'https://res.cloudinary.com/beumsk/image/upload/v1547980025/memory/Pokemon/Bulbasaur.png',
-      'https://res.cloudinary.com/beumsk/image/upload/v1547980083/memory/Pokemon/Charmander.png',
-      'https://res.cloudinary.com/beumsk/image/upload/v1547980101/memory/Pokemon/Squirtle.png',
-      'https://res.cloudinary.com/beumsk/image/upload/v1547980116/memory/Pokemon/Pikachu.png',
-      'https://res.cloudinary.com/beumsk/image/upload/v1547980129/memory/Pokemon/Mewtwo.png',
-      'https://res.cloudinary.com/beumsk/image/upload/v1547980142/memory/Pokemon/Mew.png',
-      'https://res.cloudinary.com/beumsk/image/upload/v1547980154/memory/Pokemon/Articuno.png',
-      'https://res.cloudinary.com/beumsk/image/upload/v1547980164/memory/Pokemon/Zapdos.png',
-      'https://res.cloudinary.com/beumsk/image/upload/v1547980175/memory/Pokemon/Moltres.png',
-      'https://res.cloudinary.com/beumsk/image/upload/v1547980186/memory/Pokemon/Eevee.png',
-      'https://res.cloudinary.com/beumsk/image/upload/v1547980025/memory/Pokemon/Bulbasaur.png',
-      'https://res.cloudinary.com/beumsk/image/upload/v1547980083/memory/Pokemon/Charmander.png',
-      'https://res.cloudinary.com/beumsk/image/upload/v1547980101/memory/Pokemon/Squirtle.png',
-      'https://res.cloudinary.com/beumsk/image/upload/v1547980116/memory/Pokemon/Pikachu.png',
-      'https://res.cloudinary.com/beumsk/image/upload/v1547980129/memory/Pokemon/Mewtwo.png',
-      'https://res.cloudinary.com/beumsk/image/upload/v1547980142/memory/Pokemon/Mew.png',
-      'https://res.cloudinary.com/beumsk/image/upload/v1547980154/memory/Pokemon/Articuno.png',
-      'https://res.cloudinary.com/beumsk/image/upload/v1547980164/memory/Pokemon/Zapdos.png',
-      'https://res.cloudinary.com/beumsk/image/upload/v1547980175/memory/Pokemon/Moltres.png',
-      'https://res.cloudinary.com/beumsk/image/upload/v1547980186/memory/Pokemon/Eevee.png'
+    programming: [
+        'https://upload.wikimedia.org/wikipedia/commons/c/c3/Python-logo-notext.svg',
+        'https://upload.wikimedia.org/wikipedia/commons/6/6a/JavaScript-logo.png',
+        'https://upload.wikimedia.org/wikipedia/commons/3/38/Java_logo.svg',
+        'https://upload.wikimedia.org/wikipedia/commons/1/18/C_Programming_Language.svg',
+        'https://upload.wikimedia.org/wikipedia/commons/d/d9/Node.js_logo.svg',
+        'https://upload.wikimedia.org/wikipedia/commons/2/27/PHP-logo.svg',
+        'https://upload.wikimedia.org/wikipedia/commons/1/19/C_Logo.png',
+        'https://upload.wikimedia.org/wikipedia/commons/1/13/C%2B%2B_logo.png',
+        'https://upload.wikimedia.org/wikipedia/commons/d/d5/Rust_programming_language_black_logo.svg',
+        'https://upload.wikimedia.org/wikipedia/commons/4/4f/Csharp_Logo.png'
+    ],
+    cloud: [
+        'https://upload.wikimedia.org/wikipedia/commons/9/93/Amazon_Web_Services_Logo.svg',
+        'https://upload.wikimedia.org/wikipedia/commons/3/3d/Microsoft_Azure_Logo.svg',
+        'https://upload.wikimedia.org/wikipedia/commons/5/51/Google_Cloud_logo.svg',
+        'https://upload.wikimedia.org/wikipedia/commons/e/e8/Oracle_Cloud_Logo.svg',
+        'https://upload.wikimedia.org/wikipedia/commons/9/92/IBM_Cloud_logo.svg',
+        'https://upload.wikimedia.org/wikipedia/commons/0/04/Docker_%28container_engine%29_logo.svg',
+        'https://upload.wikimedia.org/wikipedia/commons/a/a6/Kubernetes_logo_without_workmark.svg',
+        'https://upload.wikimedia.org/wikipedia/commons/8/84/Red_Hat_OpenShift_Logo.svg',
+        'https://upload.wikimedia.org/wikipedia/commons/6/64/Terraform_Logo.svg',
+        'https://upload.wikimedia.org/wikipedia/commons/3/3f/Google_Kubernetes_Engine.svg'
+    ],
+    operating_systems: [
+        'https://upload.wikimedia.org/wikipedia/commons/3/3a/Windows_logo_-_2021.svg',
+        'https://upload.wikimedia.org/wikipedia/commons/3/35/Tux.svg',
+        'https://upload.wikimedia.org/wikipedia/commons/f/fa/Apple_logo_black.svg',
+        'https://upload.wikimedia.org/wikipedia/commons/d/db/Android_robot_2014.svg',
+        'https://upload.wikimedia.org/wikipedia/commons/2/29/Microsoft-logo.svg',
+        'https://upload.wikimedia.org/wikipedia/commons/6/67/Ubuntu_logo.svg',
+        'https://upload.wikimedia.org/wikipedia/commons/3/31/Fedora_logo.svg',
+        'https://upload.wikimedia.org/wikipedia/commons/4/4f/Debian_logo.png',
+        'https://upload.wikimedia.org/wikipedia/commons/6/69/OpenBSD_logo.svg',
+        'https://upload.wikimedia.org/wikipedia/commons/9/96/Archlinux-logo-standard-version.svg'
+    ],
+    hardware: [
+        'https://upload.wikimedia.org/wikipedia/commons/6/6c/Intel_Core_i7_logo.svg',
+        'https://upload.wikimedia.org/wikipedia/commons/9/9c/AMD_Ryzen_Logo.svg',
+        'https://upload.wikimedia.org/wikipedia/commons/2/2d/Nvidia_logo.svg',
+        'https://upload.wikimedia.org/wikipedia/commons/5/5e/AMD_Logo.svg',
+        'https://upload.wikimedia.org/wikipedia/commons/4/44/Western_Digital_logo.svg',
+        'https://upload.wikimedia.org/wikipedia/commons/1/10/Seagate_Logo.svg',
+        'https://upload.wikimedia.org/wikipedia/commons/2/28/Kingston_Technology_logo.svg',
+        'https://upload.wikimedia.org/wikipedia/commons/8/8b/Samsung_SSD_logo.svg',
+        'https://upload.wikimedia.org/wikipedia/commons/2/28/Raspberry_Pi_Logo.svg',
+        'https://upload.wikimedia.org/wikipedia/commons/2/27/Corsair_logo.svg'
     ],
     starwars: [
       'https://res.cloudinary.com/beumsk/image/upload/v1547980981/memory/starwars/anakin%20skywalker.jpg',
@@ -44,72 +70,6 @@ var library = {
       'https://res.cloudinary.com/beumsk/image/upload/v1547981141/memory/starwars/dark%20vador.jpg',
       'https://res.cloudinary.com/beumsk/image/upload/v1547981165/memory/starwars/padme.jpg',
       'https://res.cloudinary.com/beumsk/image/upload/v1547981190/memory/starwars/leia.jpg'
-    ],
-    lotr: [
-      'https://res.cloudinary.com/beumsk/image/upload/v1547981408/memory/lotr/gandalf.jpg',
-      'https://res.cloudinary.com/beumsk/image/upload/v1547981438/memory/lotr/sauron.jpg',
-      'https://res.cloudinary.com/beumsk/image/upload/v1547981469/memory/lotr/Aragorn.jpg',
-      'https://res.cloudinary.com/beumsk/image/upload/v1547981501/memory/lotr/legolas.jpg',
-      'https://res.cloudinary.com/beumsk/image/upload/v1547981535/memory/lotr/Gimli.jpg',
-      'https://res.cloudinary.com/beumsk/image/upload/v1547981603/memory/lotr/golum.jpg',
-      'https://res.cloudinary.com/beumsk/image/upload/v1547981645/memory/lotr/sam.jpg',
-      'https://res.cloudinary.com/beumsk/image/upload/v1547981686/memory/lotr/saroumane.jpg',
-      'https://res.cloudinary.com/beumsk/image/upload/v1547981738/memory/lotr/bilbo.jpg',
-      'https://res.cloudinary.com/beumsk/image/upload/v1547981802/memory/lotr/frodo.jpg',
-      'https://res.cloudinary.com/beumsk/image/upload/v1547981408/memory/lotr/gandalf.jpg',
-      'https://res.cloudinary.com/beumsk/image/upload/v1547981438/memory/lotr/sauron.jpg',
-      'https://res.cloudinary.com/beumsk/image/upload/v1547981469/memory/lotr/Aragorn.jpg',
-      'https://res.cloudinary.com/beumsk/image/upload/v1547981501/memory/lotr/legolas.jpg',
-      'https://res.cloudinary.com/beumsk/image/upload/v1547981535/memory/lotr/Gimli.jpg',
-      'https://res.cloudinary.com/beumsk/image/upload/v1547981603/memory/lotr/golum.jpg',
-      'https://res.cloudinary.com/beumsk/image/upload/v1547981645/memory/lotr/sam.jpg',
-      'https://res.cloudinary.com/beumsk/image/upload/v1547981686/memory/lotr/saroumane.jpg',
-      'https://res.cloudinary.com/beumsk/image/upload/v1547981738/memory/lotr/bilbo.jpg',
-      'https://res.cloudinary.com/beumsk/image/upload/v1547981802/memory/lotr/frodo.jpg'
-    ],
-    disney: [
-      'https://res.cloudinary.com/beumsk/image/upload/v1547982044/memory/disney/mickey.jpg',
-      'https://res.cloudinary.com/beumsk/image/upload/v1547982088/memory/disney/mowgli.jpg',
-      'https://res.cloudinary.com/beumsk/image/upload/v1547982610/memory/disney/tarzan.jpg',
-      'https://res.cloudinary.com/beumsk/image/upload/v1547982620/memory/disney/simba.jpg',
-      'https://res.cloudinary.com/beumsk/image/upload/v1547982628/memory/disney/aladin.jpg',
-      'https://res.cloudinary.com/beumsk/image/upload/v1547982636/memory/disney/blanche%20neige.jpg',
-      'https://res.cloudinary.com/beumsk/image/upload/v1547982644/memory/disney/alice.png',
-      'https://res.cloudinary.com/beumsk/image/upload/v1547982653/memory/disney/peter%20pan.jpg',
-      'https://res.cloudinary.com/beumsk/image/upload/v1547982663/memory/disney/pinocchio.jpg',
-      'https://res.cloudinary.com/beumsk/image/upload/v1547982738/memory/disney/raiponce.jpg',
-      'https://res.cloudinary.com/beumsk/image/upload/v1547982044/memory/disney/mickey.jpg',
-      'https://res.cloudinary.com/beumsk/image/upload/v1547982088/memory/disney/mowgli.jpg',
-      'https://res.cloudinary.com/beumsk/image/upload/v1547982610/memory/disney/tarzan.jpg',
-      'https://res.cloudinary.com/beumsk/image/upload/v1547982620/memory/disney/simba.jpg',
-      'https://res.cloudinary.com/beumsk/image/upload/v1547982628/memory/disney/aladin.jpg',
-      'https://res.cloudinary.com/beumsk/image/upload/v1547982636/memory/disney/blanche%20neige.jpg',
-      'https://res.cloudinary.com/beumsk/image/upload/v1547982644/memory/disney/alice.png',
-      'https://res.cloudinary.com/beumsk/image/upload/v1547982653/memory/disney/peter%20pan.jpg',
-      'https://res.cloudinary.com/beumsk/image/upload/v1547982663/memory/disney/pinocchio.jpg',
-      'https://res.cloudinary.com/beumsk/image/upload/v1547982738/memory/disney/raiponce.jpg'
-    ],
-    pixar: [
-      'https://res.cloudinary.com/beumsk/image/upload/v1547982971/memory/pixar/up.jpg',
-      'https://res.cloudinary.com/beumsk/image/upload/v1547982987/memory/pixar/buzz.jpg',
-      'https://res.cloudinary.com/beumsk/image/upload/v1547983000/memory/pixar/woody.jpg',
-      'https://res.cloudinary.com/beumsk/image/upload/v1547983016/memory/pixar/Remy.jpg',
-      'https://res.cloudinary.com/beumsk/image/upload/v1547983032/memory/pixar/Mike.jpg',
-      'https://res.cloudinary.com/beumsk/image/upload/v1547983077/memory/pixar/Nemo.jpg',
-      'https://res.cloudinary.com/beumsk/image/upload/v1547983114/memory/pixar/wall-e.png',
-      'https://res.cloudinary.com/beumsk/image/upload/v1547983169/memory/pixar/Mr-Incredible.jpg',
-      'https://res.cloudinary.com/beumsk/image/upload/v1547983381/memory/pixar/sully.jpg',
-      'https://res.cloudinary.com/beumsk/image/upload/v1547983403/memory/pixar/flash%20mcqueen.jpg',
-      'https://res.cloudinary.com/beumsk/image/upload/v1547982971/memory/pixar/up.jpg',
-      'https://res.cloudinary.com/beumsk/image/upload/v1547982987/memory/pixar/buzz.jpg',
-      'https://res.cloudinary.com/beumsk/image/upload/v1547983000/memory/pixar/woody.jpg',
-      'https://res.cloudinary.com/beumsk/image/upload/v1547983016/memory/pixar/Remy.jpg',
-      'https://res.cloudinary.com/beumsk/image/upload/v1547983032/memory/pixar/Mike.jpg',
-      'https://res.cloudinary.com/beumsk/image/upload/v1547983077/memory/pixar/Nemo.jpg',
-      'https://res.cloudinary.com/beumsk/image/upload/v1547983114/memory/pixar/wall-e.png',
-      'https://res.cloudinary.com/beumsk/image/upload/v1547983169/memory/pixar/Mr-Incredible.jpg',
-      'https://res.cloudinary.com/beumsk/image/upload/v1547983381/memory/pixar/sully.jpg',
-      'https://res.cloudinary.com/beumsk/image/upload/v1547983403/memory/pixar/flash%20mcqueen.jpg'
     ],
     harrypotter: [
       'https://res.cloudinary.com/beumsk/image/upload/v1547998926/memory/harrypotter/harry.jpg',
@@ -154,7 +114,7 @@ var library = {
   var againElt = document.querySelector("#again");
   
   
-  // initiate the game with chosen theme
+  
   themesElt.addEventListener("click", function(e) {
     if (e.target.classList.contains("themes")) {
       activateTheme(e.target.id);
@@ -164,9 +124,9 @@ var library = {
   
   
   function activateTheme(theme) {
-    // insert theme in images array
+    
     for (let i = 0; i < 20; i++) {images.push(library[theme][i]);}  
-    // insert images in memory game
+    
     for (let i = 0; i < 20; i++) {
       var rand = Math.floor(Math.random() * (images.length - 1));
       boxElts[i].innerHTML = "<img src='" + images[rand] + "' alt='image' class='hidden'>";
@@ -175,17 +135,17 @@ var library = {
   }
   
   
-  // Handle the play
+  
   mainElt.addEventListener("click", gameLogic);
   
   function gameLogic(e) {
-    // make sure the box is playable
+    
     if (e.target.classList.contains("play")) {
       e.target.firstChild.classList.remove("hidden");
-      // first of two click
+      
       if (click < 1) {
         tempElt1 = e.target;
-        // timer
+       
         if (click === -1) {
           timer = setInterval(function() {
             time++;
@@ -195,11 +155,11 @@ var library = {
         click = 1;
       }
   
-      // second click
+      
       else if (e.target !== tempElt1) {
         tempElt2 = e.target;
   
-        // different images
+        
         if (tempElt1.firstChild.src !== tempElt2.firstChild.src) {
           mainElt.removeEventListener("click", gameLogic);
           setTimeout( function() {
@@ -213,7 +173,7 @@ var library = {
           scoreElt.innerHTML = score;
         }
   
-        // same images
+        
         else {
           score += 10;
           win += 2;
@@ -223,7 +183,7 @@ var library = {
           tempElt2.classList.remove("play");
           scoreElt.innerHTML = score;
   
-          // game won
+         
           if (win === 20) {
             clearInterval(timer);
             finalElt.innerHTML = "You won " + score + " points <br> in " + time + " seconds";
@@ -238,7 +198,7 @@ var library = {
   againElt.addEventListener("click", resetGame);
   
   function resetGame() {
-    // reset game
+    
     tempElt1 = "";
     tempElt2 = "";
     click = -1;
@@ -255,14 +215,5 @@ var library = {
     scoreElt.textContent = score;
   }
   
-  // handle focus of the page
-  // function checkPageFocus() {
-  //   if (document.hasFocus()) {
-  //     preElt.classList.remove("hidden");
-  //   }
-  //   else {
-  //     preElt.classList.add("hidden");
-  //   }
-  // }
-  // var checkPageInterval = setInterval(checkPageFocus, 300);
+  
   

@@ -17,7 +17,7 @@
     text-align: center;
   }
   
-  /* HEADER */
+ 
   header {
     color: white;
     letter-spacing: 10px;
@@ -42,7 +42,7 @@
     }
   }
   
-  /* main SECTION */
+ 
   .main {
     background: white;
     width: 250px;
@@ -102,7 +102,7 @@
     opacity: 0.7;
   }
   
-  /* STATUS bar */
+ 
   #state {
     background: #6186aa;
   /*   background-image: linear-gradient(to top left, #9b59b6, #1abc9c); */
@@ -145,7 +145,7 @@
     content: " points";
   }
   
-  /* FOOTER */
+  
   footer p {
     color: white;
     padding: 5px;
@@ -171,7 +171,7 @@
     display: block;
   }
   
-  /* PRE modal window */
+ 
   #pre {
     position: fixed;
     top: 0;
@@ -217,7 +217,7 @@
     margin-bottom: 20px;
   }
   
-  /* POST modal window */
+  
   #post {
     position: fixed;
     top: 0;
